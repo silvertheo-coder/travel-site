@@ -1,0 +1,15 @@
+
+
+
+.page-section {
+   padding: 1.2rem 0;
+
+   @include for-phone-only {
+      padding: 4.5rem;
+   }
+
+   &--blue {
+      background-color: $mainBlue-color;
+      color: #fff;
+   }
+}

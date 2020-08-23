@@ -1,0 +1,53 @@
+// Large Hero Global Variables
+$mainBlue-color: #2f5572;
+
+// Positioning of the large image with relative/absolute position.
+.large-hero {
+  position: relative;
+  border-bottom: 10px solid $mainBlue-color;
+
+  &__image {
+    display: block;
+  }
+
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  &__title {
+    font-weight: 300;
+    color: $mainBlue-color;
+    margin: 0;
+    font-size: 2rem;
+
+    @include for-phone-only {
+      font-size: 4.8rem;
+    }
+  }
+  &__subtitle {
+    font-weight: 300;
+    color: $mainBlue-color;
+    font-size: 1.5rem;
+
+    @include for-phone-only {
+      font-size: 2.9rem;
+    }
+  }
+
+  &__description {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 100;
+    max-width: 30rem;
+    margin: 20px auto;
+
+    @include for-phone-only {
+      font-size: 1.875rem;
+    }
+  }
+}
