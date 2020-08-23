@@ -14,6 +14,10 @@ img {
   height: auto;
 }
 
+a {
+  color: #d59541;
+}
+
 .large-hero {
   position: relative;
   border-bottom: 10px solid #2f5572;
@@ -96,7 +100,7 @@ img {
 .wrapper {
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin: auto;
   overflow: hidden;
 }
@@ -108,6 +112,16 @@ img {
 .wrapper .wrapper {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.wrapper--b-margin {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 598px) {
+  .wrapper--b-margin {
+    margin-bottom: 3.875rem;
+  }
 }
 
 .page-section {
@@ -173,11 +187,17 @@ img {
 }
 
 .headline--t-margin-small {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .headline--t-margin-large {
   margin-top: 1.6rem;
+}
+
+@media (min-width: 598px) {
+  .headline--no-t-margin {
+    margin-top: 0;
+  }
 }
 
 .row::after {
@@ -195,12 +215,33 @@ img {
     float: left;
     width: 33.333%;
   }
+  .row__medium-4--larger {
+    width: 35%;
+  }
   .row__medium-8 {
     float: left;
     width: 66.666%;
+  }
+  .row__medium-8--smaller {
+    width: 63%;
   }
 }
 
 .row__gutters > div {
   padding-right: 65px;
+}
+
+.generic-content-container p {
+  line-height: 1.65rem;
+  margin: 1.8rem 0;
+}
+
+@media (min-width: 598px) {
+  .generic-content-container p {
+    font-size: 1.125rem;
+  }
+}
+
+.generic-content-container p a {
+  font-weight: 700;
 }

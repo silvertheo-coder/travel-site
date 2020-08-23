@@ -1,11 +1,10 @@
-
 .headline {
   font-weight: 300;
   font-size: 1.9rem;
   color: $mainBlue-color;
 
-  @include for-phone-only{
-     font-size: 2.875rem
+  @include for-phone-only {
+    font-size: 2.875rem;
   }
 
   &--centered {
@@ -19,7 +18,7 @@
   &--small {
     font-size: 1.2rem;
 
-    @include for-phone-only{
+    @include for-phone-only {
       font-size: 1.875rem;
     }
   }
@@ -42,10 +41,16 @@
   }
 
   &--t-margin-small {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
   }
 
   &--t-margin-large {
     margin-top: 1.6rem;
+  }
+
+  @include for-phone-only {
+    &--no-t-margin {
+      margin-top: 0;
+    }
   }
 }

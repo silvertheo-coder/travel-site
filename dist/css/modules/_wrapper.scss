@@ -1,16 +1,23 @@
 .wrapper {
-   padding-left: 18px;
-   padding-right: 18px;
-   max-width: 1200px;
-   margin: auto;
-   overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin: auto;
+  overflow: hidden;
 
-   &--medium {
-      max-width: 976px;
-   }
+  &--medium {
+    max-width: 976px;
+  }
 
-   .wrapper {
-      padding-left: 0px;
-      padding-right: 0px;
-   }
+  .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  &--b-margin {
+     margin-bottom: 1rem;
+    @include for-phone-only {
+      margin-bottom: 3.875rem;
+    }
+  }
 }
