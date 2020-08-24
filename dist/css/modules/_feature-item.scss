@@ -1,0 +1,33 @@
+.feature-item {
+  position: relative;
+
+  padding-bottom: 3.75rem;
+
+  @include for-phone-only {
+    padding-left: 94px;
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 auto;
+
+    @include for-phone-only {
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 0.7rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+
+    @include for-phone-only {
+       text-align: left;
+      margin-top: 1rem;
+      font-size: 1.875rem;
+    }
+  }
+}
