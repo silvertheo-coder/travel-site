@@ -9,7 +9,11 @@
     margin-right: -100px;
   }
 
-  @include for-tablet-portrait-up {
+  &--gutters-small {
+    margin-right: -45px;
+  }
+
+  @include for-phone-only {
     &__medium-4 {
       float: left;
       width: 33.333%;
@@ -41,5 +45,20 @@
 
   &--gutters-large > div {
     padding-right: 100px;
+  }
+
+  &--gutters-small > div {
+    padding-right: 45px;
+  }
+
+  // Begin equal height rules
+  &--equal-height-at-medium {
+    @include for-phone-only {
+      display: flex;
+    }
+    & >div {
+      float: none;
+      display: flex;
+    }
   }
 }

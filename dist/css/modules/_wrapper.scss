@@ -15,9 +15,19 @@
   }
 
   &--b-margin {
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
     @include for-phone-only {
       margin-bottom: 3.875rem;
+    }
+  }
+
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+
+    @include for-phone-only {
+      padding-left: 18px;
+      padding-right: 18px;
     }
   }
 }
