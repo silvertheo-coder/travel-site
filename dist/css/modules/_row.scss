@@ -53,12 +53,22 @@
 
   // Begin equal height rules
   &--equal-height-at-medium {
-    @include for-phone-only {
+    @include for-tablet-landscape-up {
       display: flex;
     }
-    & >div {
+    & > div {
       float: none;
       display: flex;
     }
   }
+
+  // &--equal-height-at-large {
+  //   @include for-tablet-landscape-up {
+  //     display: flex;
+  //   }
+  //   & > div {
+  //     float: none;
+  //     display: flex;
+  //   }
+  // }
 }

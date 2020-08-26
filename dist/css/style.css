@@ -43,7 +43,7 @@ a {
   font-size: 2rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .large-hero__title {
     font-size: 4.8rem;
   }
@@ -55,7 +55,7 @@ a {
   font-size: 1.5rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .large-hero__subtitle {
     font-size: 2.9rem;
   }
@@ -69,7 +69,7 @@ a {
   margin: 20px auto;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .large-hero__description {
     font-size: 1.875rem;
   }
@@ -91,7 +91,7 @@ a {
   padding: 1.1rem 1.9rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .btn--large {
     font-size: 1.25rem;
   }
@@ -118,7 +118,7 @@ a {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .wrapper--b-margin {
     margin-bottom: 3.875rem;
   }
@@ -129,8 +129,20 @@ a {
   padding-right: 0;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 800px) {
   .wrapper--no-padding-until-medium {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+.wrapper--no-padding-until-large {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 1200px) {
+  .wrapper--no-padding-until-large {
     padding-left: 18px;
     padding-right: 18px;
   }
@@ -140,8 +152,28 @@ a {
   padding: 1.2rem 0;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 800px) {
   .page-section {
+    padding: 4.5rem;
+  }
+}
+
+.page-section--no-b-padding-until-medium {
+  padding-bottom: 0;
+}
+
+@media (min-width: 800px) {
+  .page-section--no-b-padding-until-medium {
+    padding: 4.5rem;
+  }
+}
+
+.page-section--no-b-padding-until-large {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .page-section--no-b-padding-until-large {
     padding: 4.5rem;
   }
 }
@@ -155,7 +187,7 @@ a {
   background-color: #e0e6ef;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .page-section--testimonials {
     background: url("/app/assets/images/testimonials-bg.jpg") center center/cover no-repeat;
   }
@@ -167,7 +199,7 @@ a {
   color: #2f5572;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .headline {
     font-size: 2.875rem;
   }
@@ -185,7 +217,7 @@ a {
   font-size: 1.2rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .headline--small {
     font-size: 1.875rem;
   }
@@ -216,7 +248,7 @@ a {
   margin-top: 1.6rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .headline--no-t-margin {
     margin-top: 0;
   }
@@ -240,7 +272,7 @@ a {
   margin-right: -45px;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .row__medium-4 {
     float: left;
     width: 33.333%;
@@ -251,7 +283,7 @@ a {
   width: 35%;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .row__medium-6 {
     float: left;
     width: 50%;
@@ -279,7 +311,7 @@ a {
   padding-right: 45px;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 800px) {
   .row--equal-height-at-medium {
     display: flex;
   }
@@ -297,7 +329,7 @@ a {
   padding: 3rem 0 5rem 0;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .section-title {
     font-size: 3.75rem;
   }
@@ -309,7 +341,7 @@ a {
   margin-bottom: 0.6rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .section-title__icon {
     position: relative;
     top: 8px;
@@ -328,7 +360,7 @@ a {
   padding-bottom: 3.75rem;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .feature-item {
     padding-left: 94px;
   }
@@ -339,7 +371,7 @@ a {
   margin: 0 auto;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .feature-item__icon {
     position: absolute;
     left: 0;
@@ -354,7 +386,7 @@ a {
   text-align: center;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .feature-item__title {
     text-align: left;
     margin-top: 1rem;
@@ -368,7 +400,7 @@ a {
   font-weight: 300;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .generic-content-container p {
     font-size: 1.125rem;
   }
@@ -384,7 +416,7 @@ a {
   margin-bottom: 98px;
 }
 
-@media (min-width: 598px) {
+@media (min-width: 530px) {
   .testimonial {
     margin-bottom: 0;
   }

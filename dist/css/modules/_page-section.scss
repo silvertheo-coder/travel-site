@@ -1,8 +1,24 @@
 .page-section {
   padding: 1.2rem 0;
 
-  @include for-phone-only {
+  @include for-tablet-landscape-up {
     padding: 4.5rem;
+  }
+
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @include for-tablet-landscape-up {
+      padding: 4.5rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @include for-desktop-up {
+      padding: 4.5rem;
+    }
   }
 
   &--blue {
