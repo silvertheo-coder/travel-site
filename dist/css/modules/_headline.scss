@@ -1,7 +1,7 @@
 .headline {
   font-weight: 300;
   font-size: 1.9rem;
-  color: $mainBlue-color;
+  color: $mainBlue;
 
   @include for-phone-only {
     font-size: 2.875rem;

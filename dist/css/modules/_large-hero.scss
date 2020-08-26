@@ -1,10 +1,10 @@
 // Large Hero Global Variables
-$mainBlue-color: #2f5572;
+$mainBlue: #2f5572;
 
 // Positioning of the large image with relative/absolute position.
 .large-hero {
   position: relative;
-  border-bottom: 10px solid $mainBlue-color;
+  border-bottom: 10px solid $mainBlue;
 
   &__image {
     display: block;
@@ -21,7 +21,7 @@ $mainBlue-color: #2f5572;
 
   &__title {
     font-weight: 300;
-    color: $mainBlue-color;
+    color: $mainBlue;
     margin: 0;
     font-size: 2rem;
 
@@ -31,7 +31,7 @@ $mainBlue-color: #2f5572;
   }
   &__subtitle {
     font-weight: 300;
-    color: $mainBlue-color;
+    color: $mainBlue;
     font-size: 1.5rem;
 
     @include for-phone-only {
