@@ -1,0 +1,6 @@
+
+const mobileMenu = new MobileMenu();
+
+
+
+
