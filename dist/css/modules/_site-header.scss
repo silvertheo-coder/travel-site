@@ -11,6 +11,7 @@
 
   @include for-tablet-landscape-up {
     background-color: rgba($mainBlue, 0.3);
+    position: fixed;
   }
 
   &__btn-container {
@@ -98,7 +99,7 @@
 
   &__menu-content {
     opacity: 0;
-    transform: scale(1.25)
+    transform: scale(1.25);
     transition: all .3s ease-out;
     position: relative;
     z-index: -10;
